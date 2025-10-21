@@ -8,6 +8,12 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    order: 0;
+    flex-grow: 0;
 }
 
 a {
