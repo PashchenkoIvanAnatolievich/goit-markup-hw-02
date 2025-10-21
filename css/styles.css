@@ -45,7 +45,7 @@ ul {
     color: #4d5ae5;
 }
 
-.logo span {
+.logo > span {
     color: #2e2f42;
 }
 
@@ -280,7 +280,7 @@ ul {
     color: #4d5ae5;
 }
 
-.logo-studio-footer {
+.page-footer > .logo > .logo-studio-footer {
     color: #f4f4fd;
 }
 
