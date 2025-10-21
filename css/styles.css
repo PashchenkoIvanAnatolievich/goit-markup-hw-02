@@ -249,13 +249,8 @@ ul {
 .portfolio-item {
     flex-basis: calc((100% - 48px) / 3);
     background: #fff;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-item:hover {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .portfolio-item > img {
@@ -264,16 +259,15 @@ ul {
     height: auto;
 }
 
-.portfolio-item-details {
-    padding: 32px 16px;
-    border: 1px solid #E7E9FC;
-    border-top: none;
-}
-
 .portfolio-item .team-member-name {
-    margin-top: 0;
+    margin-top: 32px;
+    margin-left: 16px;
 }
 
+.portfolio-item .team-member-position {
+    margin-top: 8px;
+    margin-left: 16px;
+}
 
 /* --- Footer --- */
 .page-footer {
